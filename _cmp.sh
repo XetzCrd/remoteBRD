@@ -17,8 +17,8 @@ cd ~/sketchbook/"$filename"
 
 make upload clean
 
-rm ~/sketchbook/test/test.ino
-rm ~/sketchbook/test/Makefile
-rmdir ~/sketchbook/test
+rm ~/sketchbook/"$filename"/"$filename".ino
+rm ~/sketchbook/"$filename"/Makefile
+rmdir ~/sketchbook/"$filename"
 tree ~/sketchbook
 ls ~/Downloads
